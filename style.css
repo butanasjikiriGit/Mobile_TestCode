@@ -14,6 +14,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .logo{
@@ -21,7 +22,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.3);
+  padding: 5px;
 }
 
 .navbar{
@@ -30,10 +31,29 @@ body{
   justify-content: center;
   align-items: center;
 }
+.navbar ul{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
 
 .search{
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.search input{
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  border: solid 1px lightgray;
+}
+.search button{
+  padding: 5px;
+  width: 50px;
+  color: white;
+  background-color: royalblue;
+  border: none;
+  border-radius: 5px;
 }
